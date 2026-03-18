@@ -1,7 +1,6 @@
 const { defineConfig } = require('cz-git');
 
 module.exports = defineConfig({
-  extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
       2,
