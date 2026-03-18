@@ -1,0 +1,19 @@
+{
+  "name": "@repo/types",
+  "version": "0.0.0",
+  "private": true,
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "lint": "eslint src --ext ts",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/config": "workspace:*",
+    "typescript": "^5.4.2"
+  }
+}

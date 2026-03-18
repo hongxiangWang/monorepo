@@ -1,0 +1,48 @@
+{
+  "version": "0.2",
+  "language": "en,zh-CN",
+  "dictionaries": ["project"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project",
+      "words": [
+        "clsx",
+        "debounced",
+        "tsup",
+        "turbo",
+        "turborepo",
+        "pnpm",
+        "monorepo",
+        "vite",
+        "tailwindcss",
+        "oklch",
+        "jsx",
+        "tsx",
+        "cjs",
+        "esm",
+        "debounce",
+        "throttle",
+        "reactjs",
+        "vitejs",
+        "typescript",
+        "eslint",
+        "prettier",
+        "postcss",
+        "autoprefixer"
+      ]
+    }
+  ],
+  "useDefaultDictionaries": true,
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "*.log",
+    "*.lock",
+    "*.pyc",
+    ".pnpm-store/**"
+  ],
+  "words": [],
+  "flagWords": []
+}
