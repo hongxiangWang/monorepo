@@ -17,7 +17,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,md,json,yml,yaml}\"",
     "spell-check": "cspell \"**/*.{ts,tsx,js,jsx,md,json}\"",
     "prepare": "husky install",
-    "commit": "cz",
+    "commit": "git-cz",
     "test": "turbo test",
     "changeset": "changeset",
     "version-packages": "changeset version",
